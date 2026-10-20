@@ -654,19 +654,11 @@ max-width:1200px;
 
 /* DROPDOWN SERVICIOS */
 
-.dropdown-toggle::after{
-    margin-left:8px;
-    transition:all .3s ease;
-    transition:transform .3s ease;
-    vertical-align:middle;
-}
+
 
 /* Girar flecha al abrir */
 
-.nav-item.dropdown.show .dropdown-toggle::after,
-.nav-item.dropdown:hover .dropdown-toggle::after{
-    transform:rotate(180deg);
-}
+
 
 /* DROPDOWN SERVICIOS */
 
@@ -692,12 +684,11 @@ max-width:1200px;
 
 .dropdown-toggle::after{
     margin-left:8px;
-    transition:transform .3s ease;
+    vertical-align:middle;
+    
 }
 
-.nav-item.dropdown:hover .dropdown-toggle::after{
-    transform:rotate(180deg);
-}
+
 
 @media(min-width:992px){
 
@@ -714,17 +705,34 @@ max-width:1200px;
     font-weight:500;
 }
 
+/*
 .dropdown-toggle::after{
     display:none;
 }
+*/
+
+/* ====================================
+   FLECHA MENU SERVICIOS
+==================================== */
+
+.dropdown-toggle::after{
+    display:none !important;
+}
 
 .menu-arrow{
-    font-size:.7rem;
-    margin-left:5px;
-    transition:.3s;
+    font-size:.8rem;
+    margin-left:6px;
+    transition:transform .3s ease;
 }
 
-.dropdown:hover .menu-arrow{
+.nav-item.dropdown:hover .menu-arrow{
     transform:rotate(180deg);
 }
+
+/* móvil */
+
+.dropdown-toggle[aria-expanded="true"] .menu-arrow{
+    transform:rotate(180deg);
+}
+
 
