@@ -1,0 +1,63 @@
+.internal-hero{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+    url('../img/hero2.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    padding:220px 0 140px;
+}
+
+.internal-hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.internal-hero p{
+    font-size:1.2rem;
+}
+
+.about-section{
+    padding:120px 0;
+}
+
+.section-title{
+    color:#16332D;
+    font-size:3rem;
+}
+
+.about-section p{
+    line-height:2;
+    color:#666;
+}
+
+.values-section{
+    background:#f8f8f8;
+    padding:120px 0;
+}
+
+.value-card{
+    background:white;
+    padding:40px 25px;
+    text-align:center;
+    height:100%;
+    border-top:4px solid #C3B091;
+
+    transition:.3s;
+}
+
+.value-card:hover{
+    transform:translateY(-5px);
+}
+
+.cta-section{
+    background:#16332D;
+    color:white;
+    padding:120px 0;
+}
