@@ -1030,3 +1030,118 @@ max-width:1200px;
 .internal-hero .container{
     max-width:1400px;
 }
+
+/* =========================
+   WHATSAPP FLOTANTE
+========================= */
+
+.whatsapp-float{
+
+    position:fixed;
+
+    width:65px;
+    height:65px;
+
+    bottom:25px;
+    right:25px;
+
+    background:#25D366;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:2rem;
+
+    text-decoration:none;
+
+    z-index:9999;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+.whatsapp-float:hover{
+
+    color:white;
+
+    transform:scale(1.1);
+
+    box-shadow:0 8px 25px rgba(0,0,0,.35);
+}
+
+
+.whatsapp-text{
+
+    position:absolute;
+
+    bottom:90px; /* arriba del botón */
+
+    left:50%;
+
+    transform:translateX(-95%);
+
+    background:#16332D;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    white-space:nowrap;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+}
+
+.whatsapp-container:hover .whatsapp-text{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+
+.whatsapp-container{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+}
+
+.whatsapp-message{
+    position:absolute;
+    bottom:75px;
+    right:0;
+
+    background:white;
+    padding:10px 15px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.topbar-email{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.topbar-email:hover{
+
+    color:var(--dorado);
+
+}
