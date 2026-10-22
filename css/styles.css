@@ -171,15 +171,34 @@ h1,h2,h3{
 }
 
 .btn-baral{
-    background:#1f2d4f;
+
+    background:#16332D;
+
     color:white;
+
+    border:2px solid #C3B091;
+
     padding:16px 42px;
-    border:none;
+
     border-radius:999px;
+
     font-weight:600;
-    text-decoration:none;
-    display:inline-block;
+
     transition:.3s;
+}
+
+.btn-baral:hover{
+
+    background:#C3B091;
+
+    color:#16332D;
+}
+
+.btn-baral:hover{
+
+    background:#102923;
+
+    color:white;
 }
 
 .btn-baral:hover{
@@ -206,7 +225,11 @@ h1,h2,h3{
 }
 
 .card-servicio{
-    background:var(--azul);
+
+    background:#16332D;
+
+    border-top:4px solid #C3B091;
+
     color:white;
 
     height:260px;
@@ -214,7 +237,9 @@ h1,h2,h3{
     padding:35px 20px;
 
     display:flex;
+
     flex-direction:column;
+
     justify-content:center;
 
     text-align:center;
@@ -223,18 +248,31 @@ h1,h2,h3{
 }
 
 .card-servicio:hover{
+
+    background:#102923;
+
+    transform:translateY(-5px);
+}
+
+.card-servicio:hover{
     background:var(--azul-hover);
     transform:translateY(-5px);
 }
 
 .servicio-icono{
-    font-size:2rem;
+
+    font-size:2.2rem;
+
     margin-bottom:18px;
-    color:white;
+
+    color:#C3B091;
 }
 
+
 .card-servicio h3{
-    font-size:1.2rem;
+
+    color:white;
+
     margin-bottom:15px;
 }
 
@@ -401,7 +439,7 @@ max-width:1200px;
 .practice-icon{
     font-size:3rem;
 
-    color:#313b58;
+    color:#16332D;
 
     margin-bottom:25px;
 
@@ -413,7 +451,7 @@ max-width:1200px;
 
     margin-bottom:20px;
 
-    color:#313b58;
+    color:#16332D;
 }
 
 .practice-card p{
