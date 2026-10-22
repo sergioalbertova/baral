@@ -26,7 +26,7 @@ h1,h2,h3{
 ========================= */
 
 .topbar{
-    background:#102923;
+    background:#16332D;
     color:white;
     font-size:.85rem;
     padding:12px 0;
@@ -496,7 +496,7 @@ max-width:1200px;
 ========================= */
 
 .footer{
-    background:#102923;
+    background:#16332D;
     color:white;
     padding:80px 0 30px;
 }
@@ -643,7 +643,7 @@ max-width:1200px;
 }
 
 .cta-section{
-    background:#16332D;
+    background:#1f5248;
     color:white;
     padding:120px 0;
 }
@@ -925,4 +925,108 @@ max-width:1200px;
 
 .dependencia-card h5{
     color:#16332D;
+}
+
+/* =========================
+   SERVICIOS PENALES
+========================= */
+
+.penal-servicios{
+    padding:120px 0;
+    background:#f8f8f8;
+}
+
+.servicio-card{
+
+    background:white;
+
+    padding:40px 30px;
+
+    height:100%;
+
+    text-align:center;
+
+    border-top:4px solid #C3B091;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+    transition:.3s;
+}
+
+.servicio-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.10);
+}
+
+.servicio-card i{
+
+    font-size:3rem;
+
+    color:#16332D;
+
+    margin-bottom:20px;
+
+    display:block;
+}
+
+.servicio-card h3{
+
+    color:#16332D;
+
+    margin-bottom:20px;
+}
+
+.servicio-card p{
+
+    color:#666;
+
+    line-height:1.8;
+}
+
+
+
+/* =========================
+   HERO PAGINAS INTERNAS
+========================= */
+
+.internal-hero{
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.55)
+    ),
+    url('../img/fondo1.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    padding:220px 0 140px;
+}
+
+.internal-hero h1{
+
+    font-size:4rem;
+    max-width:1200px;
+    margin-bottom:20px;
+    color:white;
+}
+
+.internal-hero p{
+
+    max-width:1000px;
+
+    font-size:1.2rem;
+
+    line-height:1.8;
+
+    color:rgba(255,255,255,.90);
+}
+
+.internal-hero .container{
+    max-width:1400px;
 }
