@@ -1176,3 +1176,12 @@ max-width:1200px;
     }
 
 }
+
+@media (max-width: 768px){
+
+    .metodologia-title{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
+
+}
