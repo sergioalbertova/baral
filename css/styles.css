@@ -220,9 +220,9 @@ h1,h2,h3{
     max-width:1200px;
 }
 
-.col-md-3{
+/*.col-md-3{
     padding:1px;
-}
+}*/
 
 .card-servicio{
 
@@ -417,8 +417,8 @@ max-width:1200px;
 
 .practice-card{
     background:#ffffff;
-    border:1px solid #e3e3e3;
-
+    
+    border:none;
     padding:50px 35px;
 
     text-align:center;
@@ -564,7 +564,7 @@ max-width:1200px;
 
 .footer-links li,
 .footer-contact li{
-    margin-bottom:12px;
+    margin-bottom:0px;
     color:rgba(255,255,255,.75);
 }
 
