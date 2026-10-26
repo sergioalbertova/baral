@@ -1223,3 +1223,12 @@ max-width:1200px;
     }
 
 }
+
+.topbar-right a{
+
+    position:relative;
+
+    z-index:10000;
+
+    pointer-events:auto;
+}
